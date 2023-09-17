@@ -17,7 +17,7 @@ spec:
       containers:
       - name: spring-boot-app
         image: 52.87.220.113:8083/java-app:5
-      imagePullSecrets:
-      - name: registry-secret
         ports:
         - containerPort: 8080
+      imagePullSecrets:
+      - name: registry-secret
