@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: 52.87.220.113:8083/java-app:22
+        image: 54.160.82.152:8083/java-app:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
